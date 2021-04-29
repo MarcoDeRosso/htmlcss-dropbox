@@ -133,3 +133,18 @@ header .jumbo-img{
     height: 500px;
     padding: 15px;
 }
+
+/* inizio box aziende */
+
+[class*="bigaziende-box"]{
+    width: calc(100% / 3);
+    height: 500px;
+    border: 1px solid black;
+}
+
+.aziende-box{
+    width: calc(100% / 2);
+    height: 50%;
+    border: 1px solid black;
+    background: gold;
+}
