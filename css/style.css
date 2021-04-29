@@ -79,7 +79,7 @@ nav .logo-menu, nav .menu-button{
 /* inizio header */
 
 header{
-    background: cadetblue;
+    background: #b4d0e7;
     height: 600px;
     width: 100%;
     position: relative;
@@ -93,9 +93,30 @@ header .jumbocontainer{
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
-    background: blue;
-    border: 1px solid black;
+    padding: 50px 0 50px 30px;
 }
+
+.jumbocontainer h1{
+    font-size: 55px;
+    color: #000;
+    font-weight: 900;
+}
+
+.jumbocontainer p{
+    font-size: 20px;
+    color: #000;
+    margin: 30px 0 30px;
+}
+
+.jumbo-button{
+    font-size: 20px;
+}
+
+.jumbocontainer .Arrow{
+    font-size: 40px;
+    font-weight: 900;
+}
+
 
 header .jumbo-img{
     width: 600px;
