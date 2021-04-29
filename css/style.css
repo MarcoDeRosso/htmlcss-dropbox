@@ -24,20 +24,38 @@ ul{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* inizio nav bar */
 
 nav.topbar {
-    height: 50px;
+    height: 25px;
     width: 100%;
-    background: blueviolet;
-    border: 2px solid black;
+    margin: 25px 0 25px;
 }
 
 nav .logo-menu, nav .menu-button{
     width: 50%;
     height: 100%;
-    border: 1px solid black;
 }
+
+.logo-menu li{
+    display: inline-block;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.logo-menu li a{
+    color: black;
+    font-weight: bold;
+    
+}
+
 
 /* inizio header */
 
