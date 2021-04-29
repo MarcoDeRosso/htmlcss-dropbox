@@ -36,6 +36,11 @@ nav.topbar {
     margin: 25px 0 25px;
 }
 
+.topbar img{
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
 nav .logo-menu, nav .menu-button{
     width: 50%;
     height: 100%;
@@ -53,7 +58,6 @@ nav .logo-menu, nav .menu-button{
 .logo-menu li a{
     color: black;
     font-weight: bold;
-    
 }
 
 
