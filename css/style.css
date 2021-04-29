@@ -49,17 +49,32 @@ nav .logo-menu, nav .menu-button{
 .logo-menu li{
     display: inline-block;
     margin-left: 20px;
-    text-align: center;
-    line-height: 25px;
     font-size: 20px;
     vertical-align: middle;
 }
 
-.logo-menu li a{
+.logo-menu li a, .menu-button li a{
     color: black;
     font-weight: bold;
 }
 
+.menu-button{
+    text-align: right;
+}
+
+.menu-button li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+#button-nav{
+    background: #0061ff;
+    padding: 5px 10px 5px;
+    color: white;
+
+}
 
 /* inizio header */
 
