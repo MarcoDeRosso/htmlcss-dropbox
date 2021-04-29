@@ -46,6 +46,7 @@ header{
     height: 600px;
     width: 100%;
     position: relative;
+    margin-bottom: 100px;
 }
 
 header .jumbo-container{
@@ -67,4 +68,39 @@ header .jumbo-img{
     top: 300px;
     background: coral;
     border: 1px solid black;
+}
+
+/* inizio main */
+
+.business-container{
+    width: 100%;
+    background: #deb887;
+    margin:30px 0 30px;
+}
+
+[class*="business-box"]{
+    height: 600px;
+    background: darkgreen;
+    border: 1px solid black;
+}
+
+.business-box-l{
+    width: calc(100% / 3 - 15px);
+    margin:0 15px 15px 0;
+}
+
+.business-box-m{
+    width: calc(100% / 3 - 30px);
+    margin:0 15px 15px 15px;
+}
+
+.business-box-r{
+    width: calc(100% / 3 - 15px);
+    margin:0 0 15px 15px;
+}
+
+.business-box-o{
+    width: 100%;
+    height: 300px;
+    margin-top:15px;
 }
