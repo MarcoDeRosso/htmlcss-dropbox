@@ -20,6 +20,10 @@
     margin: 0 auto;
 }
 
+ul{
+    list-style: none;
+}
+
 /* inizio nav bar */
 
 nav.topbar {
@@ -41,4 +45,26 @@ header{
     background: cadetblue;
     height: 600px;
     width: 100%;
+    position: relative;
+}
+
+header .jumbo-container{
+    width: 1200px;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background: blue;
+    border: 1px solid black;
+}
+
+header .jumbo-img{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    right: 100px;
+    top: 300px;
+    background: coral;
+    border: 1px solid black;
 }
