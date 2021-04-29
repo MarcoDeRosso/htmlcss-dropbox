@@ -148,3 +148,9 @@ header .jumbo-img{
     border: 1px solid black;
     background: gold;
 }
+
+.join-box{
+    width: 100%;
+    height: 400px;
+    background: #b4d0e7;
+}
