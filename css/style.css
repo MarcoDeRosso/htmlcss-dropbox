@@ -132,6 +132,17 @@ header .jumbo-img{
 
 /* inizio main */
 
+section h2{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.input{
+    margin: 20px 20px 0 0;
+    display: inline-block;
+    font-size: 20px;
+}
+
 [class*="-container"]{
     width: 100%;
     background: #deb887;
