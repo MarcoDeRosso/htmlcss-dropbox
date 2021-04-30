@@ -337,14 +337,56 @@ section h2{
 [class*="bigaziende-box"]{
     width: calc(100% / 3);
     height: 500px;
-    border: 1px solid black;
+    background-color: #f5f5f5;
 }
 
-.aziende-box{
+.aziende-box-1{
+    background-color: #a2d39b;
     width: calc(100% / 2);
     height: 50%;
-    border: 1px solid black;
-    background: gold;
+}
+
+.aziende-box-2{
+    background-color: #61082b;
+    width: calc(100% / 2);
+    height: 50%;
+}
+
+.aziende-box-3{
+    width: calc(100% / 2);
+    height: 50%;
+    background-color: #0093ce;
+    padding-top: 50px;
+}
+
+.aziende-box-4{
+    background-color: #ff1c1c;
+    width: calc(100% / 2);
+    height: 50%;
+}
+
+.aziende-box-5{
+    background-color: #d5001f;
+    width: calc(100% / 2);
+    height: 50%;
+}
+
+.aziende-box-6{
+    background-color: #b4d0e7;
+    width: calc(100% / 2);
+    height: 50%;
+}
+
+.aziende-box-7{
+    background-color: #0d2481;
+    width: calc(100% / 2);
+    height: 50%;
+}
+
+.aziende-box-8{
+    background-color: #ffd830;
+    width: calc(100% / 2);
+    height: 50%;
 }
 
 .join-box{
@@ -375,6 +417,38 @@ section h2{
 
 .logo-aziende .logo-aziende-img path{
     fill: white;
+}
+
+/* inizio riquadro grande */
+
+.bigaziende-box-mid{
+    padding: 50px;
+}
+
+.bigaziende-box-mid hr{
+    width: 50px;
+}
+
+.bigaziende-box-mid p{
+    margin:30px 0 30px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.bigaziende-box-mid span{
+    font-size: 18px;
+    font-style: italic;
+}
+
+.logo-aziende-big{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.logo-aziende-big img{
+    width: 100%;
+    height: 100%;
 }
 
 /* inizio footer */
