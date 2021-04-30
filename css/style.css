@@ -145,16 +145,64 @@ section h2{
 
 [class*="-container"]{
     width: 100%;
-    background: #deb887;
     margin:30px 0 30px;
 }
 
 /* inizio business part */
 
 [class*="business-box"]{
-    height: 600px;
-    background: darkgreen;
+    height: 900px;
     border: 1px solid black;
+}
+
+[class*="business-box"] .business-plan{
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+}
+
+[class*="business-box"] .business-text-container{
+    padding:0 10px 0;
+}
+.business-text-container ul{
+    margin-bottom: 50px;
+}
+
+.business-text-container ul li {
+    margin: 15px;
+}
+
+.business-text-container h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.business-text-container h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.business-text-container span{
+    font-size: 16px;
+    display: inline-block;
+}
+.business-text-container hr{
+    width: 100px;
+}
+#check{
+    color: #0061ff;
+    font-size: 14px;
+}
+
+#rata{
+    color: #637381;
+    font-size: 14px;
+}
+
+#acquista{
+    color: #0061ff;
+    text-decoration: underline;
 }
 
 .business-box-l{
