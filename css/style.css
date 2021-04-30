@@ -451,6 +451,23 @@ section h2{
     height: 100%;
 }
 
+/* inizio rettangolo azzurro */
+
+.join-box-container{
+    /* text-align: center; */
+}
+
+.join-text{
+    width:60%;
+}
+
+.join-button{
+    width: 40%;
+    margin-top: 25px;
+}
+
+
+
 /* inizio footer */
 
 footer{
