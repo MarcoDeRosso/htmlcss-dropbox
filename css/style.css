@@ -151,7 +151,6 @@ section h2{
 /* inizio business part */
 
 [class*="business-box"]{
-    height: 900px;
     border: 1px solid black;
 }
 
@@ -163,7 +162,15 @@ section h2{
 }
 
 [class*="business-box"] .business-text-container{
-    padding:0 10px 0;
+    padding-left: 15px;
+}
+
+.business-text-container.top{
+    height: 400px;
+}
+
+.business-text-container.bottom{
+    height: 350px;
 }
 .business-text-container ul{
     margin-bottom: 50px;
@@ -190,9 +197,15 @@ section h2{
 .business-text-container hr{
     width: 100px;
 }
+
+.salient-point{
+    width: 80%;
+}
+
 #check{
     color: #0061ff;
     font-size: 14px;
+    vertical-align: top;
 }
 
 #rata{
