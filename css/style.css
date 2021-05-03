@@ -29,6 +29,25 @@ a{
     color: black;
 }
 
+#blu-link{
+    color: #0061ff;
+    text-decoration: underline;
+}
+
+#button-blu{
+    background: #0061ff;
+    padding: 5px 10px 5px;
+    color: white;
+}
+
+.white-button{
+    border: 1px solid black;
+    padding: 10px;
+    display: inline-block;
+    font-size: 20px;
+    background-color: #fff;
+}
+
 /* inizio nav bar */
 
 nav.topbar {
@@ -70,12 +89,6 @@ nav .logo-menu, nav .menu-button{
     vertical-align: middle;
 }
 
-#button-nav{
-    background: #0061ff;
-    padding: 5px 10px 5px;
-    color: white;
-
-}
 
 /* inizio header */
 
@@ -227,10 +240,6 @@ section h2{
     font-size: 14px;
 }
 
-#blu-link{
-    color: #0061ff;
-    text-decoration: underline;
-}
 
 .business-box-l{
     width: calc(100% / 3 - 15px);
@@ -286,13 +295,6 @@ section h2{
 
 }
 
-.contract-button{
-    border: 1px solid black;
-    padding: 10px;
-    display: inline-block;
-    font-size: 20px;
-    background-color: #fff;
-}
 
 /* inizio operation part */
 
