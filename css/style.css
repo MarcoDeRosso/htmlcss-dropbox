@@ -291,6 +291,7 @@ section h2{
     padding: 10px;
     display: inline-block;
     font-size: 20px;
+    background-color: #fff;
 }
 
 /* inizio operation part */
@@ -356,7 +357,6 @@ section h2{
     width: calc(100% / 2);
     height: 50%;
     background-color: #0093ce;
-    padding-top: 50px;
 }
 
 .aziende-box-4{
@@ -389,11 +389,6 @@ section h2{
     height: 50%;
 }
 
-.join-box{
-    width: 100%;
-    height: 400px;
-    background: #b4d0e7;
-}
 
 .aziende-relative{
     position: relative;
@@ -453,20 +448,64 @@ section h2{
 
 /* inizio rettangolo azzurro */
 
+.join-box{
+    width: 100%;
+    height: 300px;
+    background: #b4d0e7;
+}
+
 .join-box-container{
-    /* text-align: center; */
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 .join-text{
-    width:60%;
+    position: absolute;
+    top: 30px;
+    left: 0;
 }
 
-.join-button{
-    width: 40%;
-    margin-top: 25px;
+.join-text h2{
+    color: #61082b;
 }
 
+.join-button .join{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
+/* inizio faq */
+
+.faq{
+    position: relative;
+    margin: 50px 0 50px;
+}
+
+.faq li{
+    border-top: 1px solid black;
+    padding: 20px 0 20px;
+
+}
+
+.faq span{
+    font-size: 20px;
+    display: inline-block;
+}
+
+.faq .faq-arrow{
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+}
+
+.faq li:last-child{
+    border-bottom: 1px solid black;
+}
 
 /* inizio footer */
 
