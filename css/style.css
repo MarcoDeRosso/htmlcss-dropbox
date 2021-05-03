@@ -387,6 +387,7 @@ section h2{
     background-color: #ffd830;
     width: calc(100% / 2);
     height: 50%;
+    border: 10px solid #ffeb98;
 }
 
 
@@ -542,15 +543,21 @@ footer{
 }
 
 .footernav-1 li{
-    margin-top: 50px;
+    margin-top:30px;
+    display: inline-block;
+    border-top: 1px solid #fff;
+
 }
 
 .footernav-1 span{
     color: #666;
     font-size: 16px;
     font-weight: bold;
-    display: inline-block;
-    border-top: 1px solid #fff;
     padding-top: 50px;
+    display: inline-block;
 
+}
+
+.footernav-1 i{
+    color: #666;
 }
